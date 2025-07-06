@@ -1,0 +1,871 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.site-alignment {
+    padding: 0px 120px;
+}
+
+.padding-top-section {
+    padding-top: 100px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.section-header {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.content-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.green-button {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #25A59E;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.transpernt-button {
+    padding-left: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    text-underline-offset: 10px;
+    color: #333333;
+}
+
+.state-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #25a59f59;
+}
+
+.state-active {
+    width: 28px;
+    height: 10px;
+    border-radius: 30px;
+    background: #25A59E;
+}
+
+/* End General */
+
+
+/* Start Navbar */
+
+.navigation {
+    width: 100vw;
+    padding-top: 44px;
+    position: fixed;
+    z-index: 2;
+    background-color: #F2F2F2;
+}
+
+.navigation h1 {
+    font-size: 28px;
+    font-family: "Gilda Display", serif;
+    letter-spacing: 3px;
+    color: #25A59E;
+}
+
+.svg-menu-icon {
+    display: none;
+}
+
+/* End Navbar */
+
+
+/* Start Hero */
+
+.hero {
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.hero span {
+    font-family: "Gilda Display", serif;
+    color: #25A59E;
+}
+
+.hero h2 {
+    max-width: 1150px;
+    font-family: "Gilda Display", serif;
+    font-size: 145px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 145px;
+}
+
+.hero .container {
+    position: relative;
+}
+
+.hero-img-container {
+    height: calc(800px /3.3);
+    overflow: hidden;
+}
+
+.circle-border {
+    margin-top: 38px;
+    padding: 40px;
+    border: 2px solid #EE8F39;
+    border-top: none;
+    border-radius: 50%;
+}
+
+.semi-circle {
+    width: 765px;
+    height: 765px;
+    background-color: #EE8F39;
+    border-radius: 50%;
+    box-shadow: 0px 0px 45px #44d5ce;
+}
+
+.hero-img-container img {
+    width: 600px;
+    margin: 0px auto 0px 50px;
+    position: absolute;
+    bottom: 0.01%;
+}
+
+.hero .content {
+    padding: 40px 60px;
+    background-color: #25A59E;
+}
+
+.first-item {
+    flex: 2;
+    padding-right: 32px;
+}
+
+.first-item p,
+.last-item p {
+    font-weight: 600;
+    color: #ffffffd6;
+}
+
+.mid-item {
+    flex: 1.2;
+    padding: 0px 32px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    color: #fff;
+}
+
+.mid-item h2 {
+    font-family: "Gilda Display", serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+}
+
+.last-item {
+    flex: 2;
+    padding-left: 32px;
+}
+
+/* End Hero */
+
+/* Start Destination Section */
+
+.destination-section {
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.top-section {
+    padding-bottom: 60px;
+}
+
+.top-section h2 {
+    width: 50%;
+    max-width: 505px;
+}
+
+.search p {
+    padding-bottom: 25px;
+    color: #595959;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #d9d9d928;
+}
+
+.search-input {
+    padding: 8px 8px 8px 16px;
+    border: 2px solid #D9D9D9;
+    border-radius: 100px;
+    background-color: #d9d9d928;
+}
+
+.location-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+/* Destination Section ( Cards ) */
+
+.destination-section .container .card {
+    width: 370.67px;
+    padding: 16px 16px 36px 16px;
+    margin-bottom: 40px;
+    gap: 8px;
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    box-shadow: -55.45px 50.41px 98px 0px #3736640A, 105.45px 50.41px 78.04px 0px #3736640D;
+}
+
+.destination-section .container .card span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.destination-section .container .card p {
+    font-weight: 600;
+    color: #2626267f;
+}
+
+.location {
+    gap: 4px;
+}
+
+.destination-section .container .card-img {
+    padding-bottom: 20px;
+}
+
+.state {
+    display: none;
+}
+
+/* End Destination Section */
+
+
+/*Start Why choose us Section */
+
+.why-choose-us {
+    padding: 100px 120px;
+    text-align: center;
+}
+
+.why-choose-us .container {
+    gap: 28px;
+}
+
+.why-choose-us h2 {
+    max-width: 670px;
+    padding: 24px;
+    margin: auto;
+}
+
+.why-choose-us .content-paragraph {
+    max-width: 879px;
+}
+
+.why-choose-us p {
+    padding-bottom: 60px;
+    margin: 0 auto;
+    color: #737373;
+}
+
+.why-choose-us .card {
+    width: 26.4583vw;
+    max-width: 381.33331298828125px;
+    padding: 40px 32px 48px 32px;
+    border-top: 4px solid #25A59E;
+    background-color: #fff;
+    text-align: start;
+    transition: 1s all;
+}
+
+
+.why-choose-us .card h3 {
+    font-family: "Gilda Display", serif;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    color: #262626;
+}
+
+.why-choose-us .card .fa-arrow-right {
+    color: #25A59E;
+}
+
+
+.why-choose-us .card p {
+    padding-bottom: 80px;
+    font-weight: 400;
+    color: #737373ad;
+}
+
+.why-choose-us .card a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #25A59E;
+}
+
+.why-choose-us .card:hover {
+    background-color: #25A59E;
+}
+
+.why-choose-us .card:hover h3 {
+    color: #fff;
+}
+
+.why-choose-us .card:hover p {
+    color: #fff;
+}
+
+.why-choose-us .card:hover a {
+    color: #fff;
+}
+
+.why-choose-us .card:hover .fa-arrow-right {
+    color: #fff;
+}
+
+.why-choose-us .card div {
+    gap: 12px;
+}
+
+.why-choose-us .mid-card div {
+    gap: 12px;
+}
+
+/* End Why choose us Section */
+
+/* Start memorable trip Section */
+
+.memorable-trip {
+    padding: 100px 120px;
+}
+
+
+.memorable-trip .content h2 {
+    max-width: 534px;
+}
+
+.memorable-trip img {
+    width: 45.6944vw;
+    max-width: 640px;
+    min-width: 335.1051px;
+}
+
+.memorable-trip .content h2 {
+    padding-bottom: 28px;
+}
+
+.memorable-trip .content h2 span {
+    color: #25A59E;
+}
+
+.memorable-trip .content p {
+    max-width: 534px;
+    padding-bottom: 48px;
+    color: #595959;
+}
+
+.memorable-trip .content p span {
+    color: #25A59E;
+}
+
+/* End memorable trip Section */
+
+/* Start Documentation Section */
+
+.documentation-section {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.documentation-section h2 {
+    width: 680px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+}
+
+.documentation-section .video-img {
+    width: 100%;
+}
+
+.documentation-section .icon-border {
+    padding: 4px;
+    position: absolute;
+    background-image: linear-gradient(#ffffff0a, rgba(255, 255, 255, 0.713));
+    border-radius: 50%;
+}
+
+.documentation-section .play-icon {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    background-color: #3333334c;
+}
+
+.documentation-section .fa-circle-play {
+    font-size: 55.9828px;
+    color: #fff;
+}
+
+/* End Documentation Section */
+
+/* Start Footer */
+
+.offer-section {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+footer .container {
+    padding: 80px 0px;
+}
+
+.contact-section h2 {
+    padding-bottom: 20px;
+    font-family: "Gilda Display", serif;
+    font-size: 28px;
+    letter-spacing: 10%;
+    color: #25A59E;
+}
+
+.contact-section p {
+    max-width: 313px;
+    padding-bottom: 48px;
+    color: #595959;
+}
+
+.menu {
+    gap: 40px;
+}
+
+.back-to-top-button {
+    align-self: flex-end;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    background-color: #8C8C8C;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0px 4px 26px 0px #423E3A59;
+
+}
+
+.menu ul {
+    gap: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #595959;
+}
+
+.social-media {
+    width: fit-content;
+    gap: 32px;
+}
+
+.social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EAFAF9;
+}
+
+/* End Footer */
+
+@media screen and (max-width: 992px) {
+
+    /* Start General */
+
+    .site-alignment {
+        padding: 0px 20px;
+    }
+
+    .section-header {
+        font-size: 40px;
+        text-align: center;
+        line-height: 52px;
+        letter-spacing: 0%;
+    }
+
+    .content-paragraph {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    /* End General */
+
+    /* Start Nav */
+
+    .navigation {
+        height: 60px;
+        align-items: center;
+    }
+
+    .navigation h1 {
+        font-size: 16px;
+    }
+
+    .img-menu-icon {
+        display: none;
+    }
+
+    .svg-menu-icon {
+        display: block;
+        font-size: 24px;
+    }
+
+
+    /* End Nav */
+
+    /* Start Hero */
+
+    .hero {
+        padding: 0px;
+    }
+
+    .hero h2 {
+        max-width: 327px;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .semi-circle {
+        max-width: 525px;
+        max-height: 525px;
+    }
+
+    .semi-circle img {
+        width: 432.6023px;
+        margin: 0px auto 0px auto;
+        transform: translateX(11%);
+    }
+
+    .circle-border {
+        margin-top: 0px;
+        padding: 26px;
+    }
+
+    .hero {
+        overflow: hidden;
+        padding-top: 150px;
+    }
+
+    .hero .content {
+        flex-direction: column;
+        padding: 24px 20px;
+        background-color: #25A59E;
+    }
+
+    .first-item {
+        padding-right: 0px;
+        padding-bottom: 16px;
+    }
+
+    .first-item p,
+    .last-item p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffffd6;
+    }
+
+    .mid-item {
+        padding: 16px 20px;
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+    }
+
+    .mid-item h2 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .last-item {
+        flex: 2;
+        padding-left: 0px;
+        padding-top: 16px;
+    }
+
+    /* End Hero */
+
+    /* Start Destination Section */
+
+    .destination-section {
+        /* padding-bottom: 60px; */
+        padding-top: 80px;
+    }
+
+    .top-section {
+        padding-bottom: 28px;
+        flex-direction: column;
+    }
+
+    .top-section h2 {
+        text-align: start;
+        padding-bottom: 12px;
+    }
+
+    .search p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .destination-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Destination Section ( Cards ) */
+
+    .destination-section .container .card {
+        display: none;
+    }
+
+    .destination-section .container .card:first-child {
+        display: flex;
+        max-width: 335px;
+        width: 100%;
+        padding: 12px 12px 20px 12px;
+        margin-bottom: 24px;
+    }
+
+    .state {
+        display: flex;
+        gap: 4px;
+        margin: 0 auto;
+    }
+
+    /* End Destination Section */
+
+    /*Start Why choose us Section */
+
+    .why-choose-us {
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .why-choose-us h2 {
+        max-width: 335px;
+        padding: 0px 0px 12px 0px;
+    }
+
+    .why-choose-us p {
+        padding-bottom: 28px;
+    }
+
+    .why-choose-us .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .why-choose-us .card {
+        flex: 1;
+        max-width: 335px;
+        min-width: 210px;
+        width: fit-content;
+        padding: 28px 20px 32px 20px;
+    }
+
+    .why-choose-us .card h3 {
+        padding-bottom: 8px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .why-choose-us .card p {
+        padding-bottom: 40px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .why-choose-us .card a {
+        font-size: 15px;
+    }
+
+    /* End Why choose us Section */
+
+
+    /* Start memorable trip Section */
+
+    .memorable-trip {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .memorable-trip .section-header {
+        text-align: start;
+    }
+
+    .memorable-trip .green-button {
+        display: none;
+    }
+
+    .memorable-trip .transpernt-button {
+        display: none;
+    }
+
+    /* End memorable trip Section */
+
+
+    /* Start Documentation Section */
+
+    .documentation-section {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .documentation-section h2 {
+        max-width: 335px;
+        padding-bottom: 24px;
+    }
+
+    .documentation-section .play-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .documentation-section .icon-border {
+        padding: 1.5px;
+    }
+
+    .documentation-section .fa-circle-play {
+        font-size: 23.3333px;
+    }
+
+    /* End Documentation Section */
+
+    /* Footer */
+
+    footer .contact-section h2 {
+        font-size: 16px;
+    }
+
+    footer .offer-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 42px;
+    }
+
+    footer .offer-section h2 {
+        text-align: start;
+        padding-bottom: 16px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        padding: 42px 0px;
+    }
+
+    footer .menu ul {
+        gap: 27.67px;
+        padding-top: 42px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .back-to-top-button {
+        width: 36px;
+        height: 36px;
+        padding: 16px;
+        position: absolute;
+        transform: translateY(-185%);
+    }
+
+    /* End Footer */
+}
+
+@media screen and (max-width: 576px) {
+
+    .memorable-trip img {
+        min-width: 280px;
+    }
+
+    .documentation-section h2 {
+        max-width: 300px;
+    }
+
+    footer .menu ul {
+        gap: 10.67px;
+        font-size: 14.5px;
+    }
+
+    .hero-img-container {
+        height: calc(800px /5);
+    }
+
+}
